@@ -1,8 +1,3 @@
 run = "php -S 0.0.0.0:3000 -t public"
 entrypoint = "public/index.php"
-
-[nix]
-channel = "stable-24_05"
-
-[deployment]
-run = ["php", "-S", "0.0.0.0:3000", "-t", "public"]
+modules = ["php-web"]

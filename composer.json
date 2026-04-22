@@ -1,0 +1,8 @@
+{
+  "name": "maxie/php-atm-replit",
+  "description": "Simple ATM microservice-style app for GitHub and Replit",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  }
+}
